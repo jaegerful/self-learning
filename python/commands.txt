@@ -1,0 +1,26 @@
+how to execute a file:
+
+python sample.py
+
+the above command does two things:
+1. executes file with __name__ set to '__main__'.
+2. prepends the pathname of current working directory to the 'path' environment variable.
+3. uses 'path' to locate imports in file.
+
+a package is a directory with an '__init__.py' file.
+'__init__.py' can be empty.
+
+every file has a fully qualified name.
+a fully qualified name includes every package the file is nested under, separated by periods.
+
+how to execute a built-in or third-party module:
+
+python -m outer.inner.utilities
+
+the '-m' flag does two things:
+1. lets us provide the fully qualified name of module in terminal. the 'path' environment variable is then used to locate it.
+2. every import in module must start with a package.
+
+how to create a virtual environment:
+
+python -m venv container

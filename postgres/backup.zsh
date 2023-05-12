@@ -1,0 +1,1 @@
+pg_dump -U postgres -F p advanced > advanced-backup.sql # 'p' denotes a sql file.

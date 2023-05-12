@@ -1,0 +1,34 @@
+# a comment - like python!
+
+person: 
+  name: &someanchor 'johan' # no commas!
+  occupation: 'programmer'
+  age: !!float 20 # type conversion
+  gpa: !!str 4.0
+  stupidity: 1e+10
+  male: true
+  birthday: 2001-06-30 14:33:22
+  perfection: null
+  hobbies:
+    - hiking # each '-' denotes an element in an array
+    - movies
+    - riding bike
+  movies: ['Johanism', 'Potatoes']
+  friends:
+    - name: 'steph'
+      age: 20
+    - {name: 'Perry', age: 20}
+  description: > # makes everything one line
+    lorem ipsum potato humongoues
+    I'm a little potato that likes
+    lasagnas and turnips.
+  signature: | # preserves whitespace
+    Johan
+    Giraffe Potato
+    email - @gmail.com
+  id: *someanchor # like dereferencing!
+  base: &anotheranchor
+    var1: 'potato'
+
+  foo:
+    something: *anotheranchor
