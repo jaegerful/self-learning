@@ -1,5 +1,3 @@
-'use strict'
-
 /* syntax for 'setTimeout' and 'setInterval': */
 /* set*(func, [delay,] [arg1,[arg2]...]) */
 

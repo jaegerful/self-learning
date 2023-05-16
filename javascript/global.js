@@ -1,5 +1,3 @@
-'use strict'
-
 /* 'globalThis' references the global object in all environments. */
 console.log(globalThis)
 
@@ -13,3 +11,6 @@ let second = 'something'
 
 console.log(globalThis.first)
 console.log(globalThis.second)
+
+/* in the browser, 'this' references the global object when used at the top level. */
+/* in node, 'this' is an empty object. */

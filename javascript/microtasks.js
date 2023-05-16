@@ -1,5 +1,3 @@
-'use strict'
-
 /* the engine revolves around an event loop. */
 /* each iteration of the event loop executes */
 /* the head (i.e. oldest task) of the task queue. */
