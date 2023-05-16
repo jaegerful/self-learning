@@ -1,0 +1,4 @@
+events in the browser:
+
+- DOMContentLoaded: the body has been parsed.
+- load: the body has been parsed and external resources have been executed (e.g. stylesheets, scripts, images).
