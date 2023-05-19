@@ -1,0 +1,8 @@
+there are three variations of unicode, each of which represents its range of characters:
+1. 'utf-8': encodings are one-to-four bytes each.
+2. 'utf-16': encodings are one-to-two words each.
+3. 'utf-32': encodings are a doubleword each.
+
+in 'utf-8', encodings that are four bytes long are known as 'surrogate pairs'.
+
+unicode is backwards-compatible w/ ascii (but not extended ascii).

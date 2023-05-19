@@ -1,5 +1,5 @@
-/* backslashes in strings are used to escape special characters. */
-/* if unnecessary backslashes are encountered, they are removed automatically from a string. */
+/* backslashes in strings activate alternative meanings for special characters. */
+/* if unnecessary backslashes are included, they'll be automatically removed. */
 
-const first = 'today\'s dinner\ was fun\!.'
-console.log(`first: ${first}`)
+const message = 'today\'s dinner\ was fun\!'
+console.log(`\nmessage: ${message}\n`)
