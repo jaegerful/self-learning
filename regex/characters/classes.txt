@@ -1,0 +1,14 @@
+character class: a built-in set of characters.
+
+character classes start w/ a '\'.
+
+kinds of character classes:
+1. decimal digits: '\d'.
+2. whitespace: '\s'.
+3. word (latin letter in any case, decimal digit or underscore): '\w'.
+4. any character except '\n': '.'.
+
+inverse character classes are complements to the aforementioned sets:
+1. anything but decimal digits: '\D'.
+2. anything but whitespace: '\S'.
+3. anything but a latin letter in any case, decimal digit or underscore: '\W'.

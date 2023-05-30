@@ -1,0 +1,2 @@
+every character in unicode has properties.
+characters w/ a specific property can be matched w/ the '\p{...}' syntax.

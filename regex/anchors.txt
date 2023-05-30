@@ -1,0 +1,9 @@
+kinds of anchors:
+1. '^': start of text.
+2. '$': end of text.
+3. '\b': between '\w' and '\W'.
+
+'^' and '$' are used to make sure an entire string adheres to a pattern.
+see 'introduction.js' to learn about the 'm' flag.
+
+anchors do not match characters. instead, they test boundaries of characters.

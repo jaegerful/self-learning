@@ -7,6 +7,6 @@ console.log()
 let result = 0
 
 while ((result = result + 2) <= 6)
-    console.log(`value: ${result}`)
+    console.log(`result: ${result}`)
 
 console.log()

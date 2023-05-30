@@ -1,0 +1,7 @@
+special character: a character w/ two possible meanings.
+
+every special character has a default meaning.
+to activate its other meaning in strings or regex patterns w/ '/.../', prepend character w/ '\'.
+
+strings and regex patterns w/ '/.../' have different sets of special characters.
+to be precise, strings are a subset, not including character classes.
