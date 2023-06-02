@@ -1,0 +1,28 @@
+modules:
+1. execute asynchronously. thus, they support the 'await' keyword.
+2. support the 'import' and 'export' keywords.
+3. execute in strict mode.
+4. only execute once. thus, same constructs are exported for subsequent imports.
+
+in browser, add [type = 'module'] attribute to make script module.
+in node, add property {type: 'module'} to 'package.json' to make scripts modules.
+
+in browser, imports are resolved to urls. thus, modules require http. 
+furthermore, every path must start w/ '.' or '/'.
+
+in node, imports are resolved to filesystem paths.
+
+all imported modules execute concurrently.
+the importing module waits for all them to finish.
+
+imported constructs can't be reassigned by the importing module.
+
+'import.meta' holds path of corresponding module: console.dir(import.meta)
+
+in browser, both inline and external modules are deferred by default.
+however, the 'async' attribute can be explicitly set to replace this behavior.
+
+browser ignores duplicate modules for same url.
+
+if browser supports modules, scripts marked 'nomodule' ignored.
+if browser does not support modules, scripts w/ [type = 'module'] attribute ignored.

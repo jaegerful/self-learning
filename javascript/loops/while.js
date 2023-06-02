@@ -1,5 +1,3 @@
-'use strict'
-
 console.log()
 
 /* assignments are permitted in while loops. */
