@@ -1,0 +1,10 @@
+origins consist of three parts:
+    1. scheme
+    2. hostname
+    3. port (default: 80)
+
+browsers append a forward slash to searches that simply consist of origins.
+in other words, the path is '/'.
+
+when request made from website, the 'origin' header is included.
+in this header, the path of the url is not included.
