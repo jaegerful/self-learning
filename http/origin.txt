@@ -8,3 +8,5 @@ in other words, the path is '/'.
 
 when request made from website, the 'origin' header is included.
 in this header, the path of the url is not included.
+
+origins comprise a subset of urls. urls are anything that starts w/ '[a-z]+:'.
