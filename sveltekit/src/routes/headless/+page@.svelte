@@ -1,0 +1,1 @@
+<!-- when '+page.svelte' has '@[directory]' inserted in name, layout hierarchy from specified directory used. -->

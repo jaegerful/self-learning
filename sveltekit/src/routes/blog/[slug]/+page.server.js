@@ -6,7 +6,7 @@ export const load = ({params}) => {
 
     if (post === undefined) {
         /* 'error' from '@sveltejs/kit' does not log error to server console. */
-        /* its status and description are displayed instead of the page's contents. */
+        /* its status and description are displayed instead of the page's contents, using either the default or nearest '+error.svelte'. */
 
         throw error(404, 'unfortunately, this post does not exist')
 
