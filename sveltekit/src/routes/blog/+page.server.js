@@ -49,7 +49,7 @@ export const actions = {
 }
 
 /* before refreshing a form page, the browser waits for a response from the server! */
-/* thus, it's best practice to update our database before sending a response back to the browser.  */
+/* thus, it's best practice to update our database before sending a response back to the browser. */
 
 /* sveltekit does not permit default actions to coexist w/ named ones. */
 /* the reason is simple: if a form posts to a named action first, a subsequent post to the default action would erroneously include the query parameter of the named action. */

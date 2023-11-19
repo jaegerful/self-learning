@@ -15,7 +15,7 @@
     {/each}
 </ul>
 
-<!-- a uri serves as an identifier. sometimes, this identifier also serves a locator! -->
+<!-- a uri serves as an identifier. sometimes, this identifier also serves as a locator! -->
 <!-- 'url' stands for 'uniform resource locator.' thus, valid urls may have nothing to do w/ the internet! -->
 
 <!-- query parameters don't need values. the uri specification implies so. -->
